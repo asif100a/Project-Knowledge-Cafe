@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/z6VFfFR/consulting-blog-12.webp",
+      "title": "JavaScript is a high level programming language. Even it's a dynamic language.",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/zGptxKK/boy2.jpg",
+      "posted_date": "2024-03-12",
+      "reading_time": "5 minutes",
+      "hashtags": ["Learners", "Programming"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/h92m2G0/Rocket-Img-1.jpg",
+      "title": "Space-X started to launch to send this rocket for experiment.",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/BwvcTL5/girl1.jpg",
+      "posted_date": "2024-03-11",
+      "reading_time": "4 minutes",
+      "hashtags": ["Space Scientist", "Outer-Space"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/MPSG91m/Electronic-Devices.jpg",
+      "title": "Electronic devices are available today. You can buy these in cheapest price.",
+      "author": "Alex Johnson",
+      "author_img": "https://i.ibb.co/sQNHLzg/Profile-Img-1.jpg",
+      "posted_date": "2024-03-10",
+      "reading_time": "6 minutes",
+      "hashtags": ["Engineer", "Electronic-devices"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/42RPvXM/React-Img-1.webp",
+      "title": "React is a fast and better framework of JavaScript.",
+      "author": "Emily Brown",
+      "author_img": "https://i.ibb.co/9shPRXN/Profile-Img-2.jpg",
+      "posted_date": "2024-03-09",
+      "reading_time": "5 minutes",
+      "hashtags": ["Program Learners", "Programming"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/M6HwkZC/google-headquarters.jpg",
+      "title": "Some Experience developers need to google.",
+      "author": "Michael Wilson",
+      "author_img": "https://i.ibb.co/zmw2p2n/Profile-Img-3.jpg",
+      "posted_date": "2024-03-08",
+      "reading_time": "10 minutes",
+      "hashtags": ["Google post", "Google Headquarters"]
+    }
+  ]
+  
