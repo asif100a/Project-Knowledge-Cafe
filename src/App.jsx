@@ -9,14 +9,14 @@ function App() {
   const [readingTime, setReadingTime] = useState(0);
 
   const handleAddToBookmark = (blog) => {
-    // console.log(blog.reading_time)
+    // console.log(id)
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
 
     // Processing the reading time
-    const {reading_time} = blog;
+    const { reading_time } = blog;
     const splitTime = reading_time.split(' ');
-    const timeString = splitTime[0]; 
+    const timeString = splitTime[0];
     const time = parseInt(timeString);
 
     // set the reading time
@@ -24,13 +24,19 @@ function App() {
     setReadingTime(newTime);
   };
 
+  const handleUnmarked = (id) => { 
+    console.log('id added', id);
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remainingBookmarks);
+  };
+
   return (
     <>
       <Header></Header>
       <div className='md:flex'>
-        <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
+        <Blogs handleAddToBookmark={handleAddToBookmark} handleUnmarked={handleUnmarked}></Blogs>
 
-        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime} handleUnmarked={handleUnmarked}></Bookmarks>
       </div>
     </>
   )
